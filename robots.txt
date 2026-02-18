@@ -1,0 +1,6 @@
+# Robots.txt for RoboGo
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://robogo.io/sitemap.xml

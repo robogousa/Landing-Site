@@ -3,23 +3,23 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>RoboGo — Workflow Automation for Healthcare, Energy & B2B</title>
-<meta name="description" content="RoboGo builds workflow automation systems for healthcare, energy, and B2B companies — deployed in weeks, not months. Get 4-10 hours back every week.">
+<title>RoboGo — Workflow Automation for B2B, Energy & Supply Chain</title>
+<meta name="description" content="RoboGo builds workflow automation systems for B2B, energy, and supply chain companies — deployed in weeks, not months. Get 4-10 hours back every week.">
 <meta name="robots" content="index, follow">
 <link rel="canonical" href="https://robogo.io/">
 
 <!-- Open Graph / Facebook -->
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://robogo.io/">
-<meta property="og:title" content="RoboGo — Workflow Automation for Healthcare, Energy & B2B">
-<meta property="og:description" content="RoboGo builds workflow automation systems for healthcare, energy, and B2B companies — deployed in weeks, not months. Get 4-10 hours back every week.">
+<meta property="og:title" content="RoboGo — Workflow Automation for B2B, Energy & Supply Chain">
+<meta property="og:description" content="RoboGo builds workflow automation systems for B2B, energy, and supply chain companies — deployed in weeks, not months. Get 4-10 hours back every week.">
 <meta property="og:image" content="https://robogo.io/og-image.png">
 
 <!-- Twitter -->
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:url" content="https://robogo.io/">
-<meta name="twitter:title" content="RoboGo — Workflow Automation for Healthcare, Energy & B2B">
-<meta name="twitter:description" content="RoboGo builds workflow automation systems for healthcare, energy, and B2B companies — deployed in weeks, not months. Get 4-10 hours back every week.">
+<meta name="twitter:title" content="RoboGo — Workflow Automation for B2B, Energy & Supply Chain">
+<meta name="twitter:description" content="RoboGo builds workflow automation systems for B2B, energy, and supply chain companies — deployed in weeks, not months. Get 4-10 hours back every week.">
 <meta name="twitter:image" content="https://robogo.io/og-image.png">
 
 <!-- Structured Data -->
@@ -28,20 +28,13 @@
   "@context": "https://schema.org",
   "@type": "Organization",
   "name": "RoboGo",
-  "description": "Workflow automation systems for healthcare, energy, and B2B companies",
+  "description": "Workflow automation systems for B2B, energy, and supply chain companies",
   "url": "https://robogo.io",
   "sameAs": [],
   "contactPoint": {
     "@type": "ContactPoint",
     "contactType": "sales",
     "url": "https://calendly.com/robogollc/30min"
-  },
-  "offers": {
-    "@type": "AggregateOffer",
-    "priceCurrency": "USD",
-    "lowPrice": "4500",
-    "highPrice": "45000",
-    "offerCount": "5"
   }
 }
 </script>
@@ -628,20 +621,6 @@ section { position: relative; z-index: 1; }
   opacity: 0.6;
 }
 
-.service-price {
-  font-family: 'Syne', sans-serif;
-  font-size: 20px;
-  font-weight: 800;
-  color: var(--text);
-}
-
-.service-price span {
-  font-family: 'DM Sans', sans-serif;
-  font-size: 12px;
-  font-weight: 400;
-  color: var(--muted);
-}
-
 /* ── HOW IT WORKS ── */
 #process { padding: 120px 0; background: var(--surface); border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); }
 
@@ -944,23 +923,23 @@ section { position: relative; z-index: 1; }
   border: 1px solid rgba(0,229,160,0.2);
 }
 
-/* ── PRICING ── */
-#pricing { padding: 120px 0; }
+/* ── ENGAGEMENT MODELS ── */
+#engagement { padding: 120px 0; }
 
-.pricing-header { text-align: center; max-width: 580px; margin: 0 auto 72px; }
-.pricing-header .section-label { justify-content: center; }
-.pricing-header .section-sub { margin: 0 auto; }
+.engagement-header { text-align: center; max-width: 580px; margin: 0 auto 72px; }
+.engagement-header .section-label { justify-content: center; }
+.engagement-header .section-sub { margin: 0 auto; }
 
-.pricing-grid {
+.engagement-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 16px;
   align-items: start;
 }
 
-@media (max-width: 900px) { .pricing-grid { grid-template-columns: 1fr; } }
+@media (max-width: 900px) { .engagement-grid { grid-template-columns: 1fr; } }
 
-.pricing-card {
+.engagement-card {
   background: var(--surface);
   border: 1px solid var(--border);
   border-radius: 16px;
@@ -969,18 +948,18 @@ section { position: relative; z-index: 1; }
   transition: all 0.3s;
 }
 
-.pricing-card:hover { transform: translateY(-4px); box-shadow: 0 24px 60px rgba(0,0,0,0.4); }
+.engagement-card:hover { transform: translateY(-4px); box-shadow: 0 24px 60px rgba(0,0,0,0.4); }
 
-.pricing-card.featured {
+.engagement-card.featured {
   border-color: var(--accent);
   background: linear-gradient(135deg, var(--surface2), var(--surface));
   box-shadow: 0 0 0 1px rgba(0,229,160,0.1), 0 24px 60px rgba(0,229,160,0.08);
   transform: translateY(-8px);
 }
 
-.pricing-card.featured:hover { transform: translateY(-12px); }
+.engagement-card.featured:hover { transform: translateY(-12px); }
 
-.pricing-badge {
+.engagement-badge {
   position: absolute;
   top: -12px; left: 50%; transform: translateX(-50%);
   font-family: 'DM Mono', monospace;
@@ -995,7 +974,7 @@ section { position: relative; z-index: 1; }
   white-space: nowrap;
 }
 
-.pricing-tier {
+.engagement-tier {
   font-family: 'DM Mono', monospace;
   font-size: 10px;
   color: var(--muted);
@@ -1004,18 +983,16 @@ section { position: relative; z-index: 1; }
   margin-bottom: 12px;
 }
 
-.pricing-price {
+.engagement-scope {
   font-family: 'Syne', sans-serif;
-  font-size: 40px;
+  font-size: 26px;
   font-weight: 800;
-  line-height: 1;
+  line-height: 1.1;
   margin-bottom: 4px;
+  color: var(--text);
 }
 
-.pricing-price sup { font-size: 18px; vertical-align: top; margin-top: 8px; color: var(--muted2); }
-.pricing-price .per { font-family: 'DM Sans', sans-serif; font-size: 14px; font-weight: 400; color: var(--muted); }
-
-.pricing-timeline-tag {
+.engagement-timeline-tag {
   display: inline-flex;
   align-items: center;
   gap: 6px;
@@ -1029,7 +1006,7 @@ section { position: relative; z-index: 1; }
   margin: 14px 0 20px;
 }
 
-.pricing-desc {
+.engagement-desc {
   font-size: 13px;
   color: var(--muted2);
   line-height: 1.6;
@@ -1038,14 +1015,14 @@ section { position: relative; z-index: 1; }
   border-bottom: 1px solid var(--border);
 }
 
-.pricing-includes {
+.engagement-includes {
   display: flex;
   flex-direction: column;
   gap: 10px;
   margin-bottom: 32px;
 }
 
-.pricing-include {
+.engagement-include {
   display: flex;
   align-items: flex-start;
   gap: 10px;
@@ -1061,7 +1038,7 @@ section { position: relative; z-index: 1; }
   flex-shrink: 0;
 }
 
-.pricing-cta {
+.engagement-cta {
   width: 100%;
   font-family: 'Syne', sans-serif;
   font-size: 13px;
@@ -1075,19 +1052,19 @@ section { position: relative; z-index: 1; }
   text-decoration: none;
 }
 
-.pricing-cta-outline {
+.engagement-cta-outline {
   background: transparent;
   border: 1px solid var(--border);
   color: var(--text);
 }
-.pricing-cta-outline:hover { border-color: var(--accent); color: var(--accent); }
+.engagement-cta-outline:hover { border-color: var(--accent); color: var(--accent); }
 
-.pricing-cta-solid {
+.engagement-cta-solid {
   background: var(--accent);
   border: 1px solid var(--accent);
   color: var(--bg);
 }
-.pricing-cta-solid:hover { background: #00ffb2; box-shadow: 0 8px 24px rgba(0,229,160,0.3); }
+.engagement-cta-solid:hover { background: #00ffb2; box-shadow: 0 8px 24px rgba(0,229,160,0.3); }
 
 /* ── FINAL CTA ── */
 #cta {
@@ -1214,7 +1191,7 @@ footer {
     <li><a href="#services">Services</a></li>
     <li><a href="#process">Process</a></li>
     <li><a href="#verticals">Verticals</a></li>
-    <li><a href="#pricing">Pricing</a></li>
+    <li><a href="#engagement">Engagements</a></li>
   </ul>
   <a href="#cta" class="nav-cta">Book Free Audit →</a>
 </nav>
@@ -1226,14 +1203,14 @@ footer {
       <div>
         <div class="hero-eyebrow">
           <div class="eyebrow-line"></div>
-          <div class="eyebrow-text">N8N · Zapier · Make · Custom</div>
+          <div class="eyebrow-text">N8N · Make · SAP · Salesforce · NetSuite</div>
         </div>
         <h1 class="hero-h1">
           Your ops team<br>
           gets <span class="highlight">4–10 hours</span><br>
           back. Every week.
         </h1>
-        <p class="hero-sub">We build workflow automation systems for healthcare, energy, and B2B companies — deployed in weeks, not months. No new software. Just making what you have actually work together.</p>
+        <p class="hero-sub">We build workflow automation systems for B2B, energy, and supply chain companies — deployed in weeks, not months. No new software. Just making what you have actually work together.</p>
         <div class="hero-actions">
           <a href="#cta" class="btn-primary">Get Free Audit →</a>
           <a href="#services" class="btn-ghost">See Services</a>
@@ -1244,8 +1221,8 @@ footer {
             <div class="hero-stat-label">Fastest first<br>deployment</div>
           </div>
           <div>
-            <div class="hero-stat-val">$40k+</div>
-            <div class="hero-stat-label">Typical CRM<br>build value</div>
+            <div class="hero-stat-val">500+</div>
+            <div class="hero-stat-label">Avg. hours saved<br>per client per year</div>
           </div>
           <div>
             <div class="hero-stat-val">3x+</div>
@@ -1260,26 +1237,22 @@ footer {
           <div class="dot-red"></div>
           <div class="dot-yellow"></div>
           <div class="dot-green"></div>
-          <div class="terminal-title">workflow_audit.json — lead_enrichment</div>
+          <div class="terminal-title">vendor_onboarding.json — supply_chain</div>
         </div>
         <div class="terminal-body">
-          <div class="t-comment">// Lead processed in 0.8s</div>
+          <div class="t-comment">// Vendor processed in 1.2s</div>
           <div>{</div>
-          <div>&nbsp;&nbsp;<span class="t-key">"contact"</span>: {</div>
-          <div>&nbsp;&nbsp;&nbsp;&nbsp;<span class="t-key">"name"</span>: <span class="t-str">"Sarah Chen"</span>,</div>
-          <div>&nbsp;&nbsp;&nbsp;&nbsp;<span class="t-key">"title"</span>: <span class="t-str">"VP Operations"</span>,</div>
-          <div>&nbsp;&nbsp;&nbsp;&nbsp;<span class="t-key">"seniority"</span>: <span class="t-val">"decision_maker"</span></div>
+          <div>&nbsp;&nbsp;<span class="t-key">"vendor"</span>: {</div>
+          <div>&nbsp;&nbsp;&nbsp;&nbsp;<span class="t-key">"name"</span>: <span class="t-str">"Coastal Freight LLC"</span>,</div>
+          <div>&nbsp;&nbsp;&nbsp;&nbsp;<span class="t-key">"tier"</span>: <span class="t-str">"preferred_carrier"</span>,</div>
+          <div>&nbsp;&nbsp;&nbsp;&nbsp;<span class="t-key">"status"</span>: <span class="t-val">"active"</span></div>
           <div>&nbsp;&nbsp;},</div>
-          <div>&nbsp;&nbsp;<span class="t-key">"company"</span>: {</div>
-          <div>&nbsp;&nbsp;&nbsp;&nbsp;<span class="t-key">"employees"</span>: <span class="t-num">187</span>,</div>
-          <div>&nbsp;&nbsp;&nbsp;&nbsp;<span class="t-key">"industry"</span>: <span class="t-str">"Healthcare"</span>,</div>
-          <div>&nbsp;&nbsp;&nbsp;&nbsp;<span class="t-key">"tech_stack"</span>: <span class="t-str">"Epic, HubSpot, Slack"</span></div>
-          <div>&nbsp;&nbsp;},</div>
-          <div>&nbsp;&nbsp;<span class="t-key">"lead_score"</span>: <span class="t-val">82</span>,</div>
-          <div>&nbsp;&nbsp;<span class="t-key">"tier"</span>: <span class="t-val">"A"</span>,</div>
-          <div>&nbsp;&nbsp;<span class="t-key">"priority"</span>: <span class="t-str">"respond_in_2hrs"</span>,</div>
-          <div>&nbsp;&nbsp;<span class="t-key">"crm_created"</span>: <span class="t-val">true</span>,</div>
-          <div>&nbsp;&nbsp;<span class="t-key">"slack_alerted"</span>: <span class="t-val">true</span></div>
+          <div>&nbsp;&nbsp;<span class="t-key">"po_auto_created"</span>: <span class="t-val">true</span>,</div>
+          <div>&nbsp;&nbsp;<span class="t-key">"erp_synced"</span>: <span class="t-val">true</span>,</div>
+          <div>&nbsp;&nbsp;<span class="t-key">"portal_access"</span>: <span class="t-str">"granted"</span>,</div>
+          <div>&nbsp;&nbsp;<span class="t-key">"compliance_docs"</span>: <span class="t-str">"auto_requested"</span>,</div>
+          <div>&nbsp;&nbsp;<span class="t-key">"team_alerted"</span>: <span class="t-val">true</span>,</div>
+          <div>&nbsp;&nbsp;<span class="t-key">"manual_steps"</span>: <span class="t-num">0</span></div>
           <div>} <span class="t-cursor"></span></div>
         </div>
       </div>
@@ -1291,26 +1264,26 @@ footer {
 <div class="marquee-section">
   <div class="marquee-track">
     <div class="marquee-item"><div class="marquee-dot"></div>Workflow Automation</div>
-    <div class="marquee-item"><div class="marquee-dot"></div>CRM Build-Outs</div>
-    <div class="marquee-item"><div class="marquee-dot"></div>Data Pipelines</div>
-    <div class="marquee-item"><div class="marquee-dot"></div>Lead Enrichment</div>
-    <div class="marquee-item"><div class="marquee-dot"></div>Ops Reporting</div>
-    <div class="marquee-item"><div class="marquee-dot"></div>Healthcare Automation</div>
+    <div class="marquee-item"><div class="marquee-dot"></div>Supply Chain Ops</div>
+    <div class="marquee-item"><div class="marquee-dot"></div>ERP Integration</div>
+    <div class="marquee-item"><div class="marquee-dot"></div>Vendor Onboarding</div>
+    <div class="marquee-item"><div class="marquee-dot"></div>Energy Compliance</div>
+    <div class="marquee-item"><div class="marquee-dot"></div>B2B Revenue Ops</div>
     <div class="marquee-item"><div class="marquee-dot"></div>DER Monitoring</div>
-    <div class="marquee-item"><div class="marquee-dot"></div>Process Documentation</div>
-    <div class="marquee-item"><div class="marquee-dot"></div>N8N · Zapier · Make</div>
-    <div class="marquee-item"><div class="marquee-dot"></div>HubSpot · Airtable · Notion</div>
+    <div class="marquee-item"><div class="marquee-dot"></div>Procurement Automation</div>
+    <div class="marquee-item"><div class="marquee-dot"></div>SAP · NetSuite · Salesforce</div>
+    <div class="marquee-item"><div class="marquee-dot"></div>N8N · Make · Zapier</div>
     <!-- repeat for seamless loop -->
     <div class="marquee-item"><div class="marquee-dot"></div>Workflow Automation</div>
-    <div class="marquee-item"><div class="marquee-dot"></div>CRM Build-Outs</div>
-    <div class="marquee-item"><div class="marquee-dot"></div>Data Pipelines</div>
-    <div class="marquee-item"><div class="marquee-dot"></div>Lead Enrichment</div>
-    <div class="marquee-item"><div class="marquee-dot"></div>Ops Reporting</div>
-    <div class="marquee-item"><div class="marquee-dot"></div>Healthcare Automation</div>
+    <div class="marquee-item"><div class="marquee-dot"></div>Supply Chain Ops</div>
+    <div class="marquee-item"><div class="marquee-dot"></div>ERP Integration</div>
+    <div class="marquee-item"><div class="marquee-dot"></div>Vendor Onboarding</div>
+    <div class="marquee-item"><div class="marquee-dot"></div>Energy Compliance</div>
+    <div class="marquee-item"><div class="marquee-dot"></div>B2B Revenue Ops</div>
     <div class="marquee-item"><div class="marquee-dot"></div>DER Monitoring</div>
-    <div class="marquee-item"><div class="marquee-dot"></div>Process Documentation</div>
-    <div class="marquee-item"><div class="marquee-dot"></div>N8N · Zapier · Make</div>
-    <div class="marquee-item"><div class="marquee-dot"></div>HubSpot · Airtable · Notion</div>
+    <div class="marquee-item"><div class="marquee-dot"></div>Procurement Automation</div>
+    <div class="marquee-item"><div class="marquee-dot"></div>SAP · NetSuite · Salesforce</div>
+    <div class="marquee-item"><div class="marquee-dot"></div>N8N · Make · Zapier</div>
   </div>
 </div>
 
@@ -1334,32 +1307,31 @@ footer {
         <div class="service-icon">🔗</div>
         <div>
           <div class="service-name">Lead Enrichment & CRM Auto-Population</div>
-          <div class="service-desc">Inbound leads enriched with company data, contact intelligence, and lead scores — then auto-filed in HubSpot with a Slack alert to your team. Zero manual data entry.</div>
+          <div class="service-desc">Inbound leads enriched with company data, contact intelligence, and lead scores — then auto-filed in your CRM with team alerts. Zero manual data entry, full pipeline visibility.</div>
         </div>
         <div class="service-deliverables">
           <div class="deliverable">Clearbit + Apollo enrichment pipeline</div>
           <div class="deliverable">Lead scoring (0–100) with tier routing</div>
-          <div class="deliverable">HubSpot contact + deal creation</div>
-          <div class="deliverable">Slack Tier-A alerts + Google Sheets log</div>
+          <div class="deliverable">CRM contact + deal creation</div>
+          <div class="deliverable">Slack Tier-A alerts + reporting log</div>
         </div>
         <div class="time-badge">
           <div class="time-badge-icon">⚡</div>
           <div class="time-badge-label">Deployed in</div>
           <div class="time-badge-value">1–2 weeks</div>
         </div>
-        <div class="service-price">$4,500 <span>– $8,000</span></div>
       </div>
 
       <!-- Service 2 -->
       <div class="service-card">
         <div class="service-icon">📄</div>
         <div>
-          <div class="service-name">Automated Proposal Generation</div>
-          <div class="service-desc">Deal moves to "Proposal" stage → personalized proposal auto-built from a template, converted to PDF, uploaded to Drive, and emailed to the prospect in under 2 minutes.</div>
+          <div class="service-name">Automated Proposal & Contract Generation</div>
+          <div class="service-desc">Deal moves to "Proposal" stage → personalized proposal auto-built from a template, converted to PDF, uploaded to Drive, and delivered to the prospect in under 2 minutes.</div>
         </div>
         <div class="service-deliverables">
           <div class="deliverable">CRM trigger → document generation</div>
-          <div class="deliverable">Dynamic Google Doc / Notion template</div>
+          <div class="deliverable">Dynamic template with client variables</div>
           <div class="deliverable">PDF conversion + Drive upload</div>
           <div class="deliverable">Personalized email delivery</div>
         </div>
@@ -1368,7 +1340,6 @@ footer {
           <div class="time-badge-label">Deployed in</div>
           <div class="time-badge-value">1–2 weeks</div>
         </div>
-        <div class="service-price">$5,000 <span>– $9,000</span></div>
       </div>
 
       <!-- Service 3 -->
@@ -1376,20 +1347,19 @@ footer {
         <div class="service-icon">📊</div>
         <div>
           <div class="service-name">Weekly Ops Reporting Dashboard</div>
-          <div class="service-desc">Every Monday at 7am, your full ops picture — CRM pipeline, support volume, revenue, task completion — compiled automatically and posted to Slack. No analyst needed.</div>
+          <div class="service-desc">Every Monday at 7am, your full ops picture — pipeline, logistics status, compliance snapshots, revenue — compiled automatically and posted to Slack. No analyst needed.</div>
         </div>
         <div class="service-deliverables">
           <div class="deliverable">Multi-source data aggregation</div>
-          <div class="deliverable">Scheduled Google Sheets dashboard</div>
+          <div class="deliverable">Scheduled dashboard with configurable KPIs</div>
           <div class="deliverable">Formatted Slack digest for leadership</div>
-          <div class="deliverable">Configurable KPIs and thresholds</div>
+          <div class="deliverable">Threshold alerts for exceptions</div>
         </div>
         <div class="time-badge">
           <div class="time-badge-icon">⚡</div>
           <div class="time-badge-label">Deployed in</div>
           <div class="time-badge-value">2–3 weeks</div>
         </div>
-        <div class="service-price">$6,000 <span>– $12,000</span></div>
       </div>
     </div>
 
@@ -1400,11 +1370,11 @@ footer {
         <div class="service-icon">🏢</div>
         <div>
           <div class="service-name">Full CRM & Tech Stack Build-Out</div>
-          <div class="service-desc">End-to-end CRM architecture, custom properties, pipeline stages, automation rules, and integrations across your full tool stack. The flagship engagement — this is what generates the $40k+ projects.</div>
+          <div class="service-desc">End-to-end CRM architecture, custom properties, pipeline stages, automation rules, and integrations across your full tool stack — including ERP, logistics platforms, and billing systems.</div>
         </div>
         <div class="service-deliverables">
-          <div class="deliverable">HubSpot or Airtable full configuration</div>
-          <div class="deliverable">All tool integrations (10–15 connections)</div>
+          <div class="deliverable">HubSpot, Salesforce, or Airtable configuration</div>
+          <div class="deliverable">ERP integrations (SAP, NetSuite, Dynamics)</div>
           <div class="deliverable">Custom automation workflows per team</div>
           <div class="deliverable">SOPs, documentation, and staff training</div>
           <div class="deliverable">60-day post-launch support</div>
@@ -1414,7 +1384,6 @@ footer {
           <div class="time-badge-label">Deployed in</div>
           <div class="time-badge-value">6–10 weeks</div>
         </div>
-        <div class="service-price">$20,000 <span>– $45,000</span></div>
       </div>
 
       <!-- Service 5 -->
@@ -1422,7 +1391,7 @@ footer {
         <div class="service-icon">🔄</div>
         <div>
           <div class="service-name">Automation Retainer</div>
-          <div class="service-desc">One new workflow built and deployed every month. Maintenance of existing automations. Priority support. The natural next step after any build engagement — when clients see the first ROI, they always want more.</div>
+          <div class="service-desc">One new workflow built and deployed every month. Maintenance of existing automations. Priority support. The natural next step after any build — when clients see the first ROI, they always want more.</div>
         </div>
         <div class="service-deliverables">
           <div class="deliverable">1 new workflow per month</div>
@@ -1436,7 +1405,6 @@ footer {
           <div class="time-badge-label">New workflow every</div>
           <div class="time-badge-value">30 days</div>
         </div>
-        <div class="service-price">$2,500 <span>– $5,000 /mo</span></div>
       </div>
     </div>
 
@@ -1464,7 +1432,7 @@ footer {
         <div class="step-num">02</div>
         <div>
           <div class="step-title">Scope & Sign</div>
-          <div class="step-desc">You receive the audit doc with prioritized opportunities and pricing options within 24 hours. Sign and deposit.</div>
+          <div class="step-desc">You receive the audit doc with prioritized opportunities and a custom proposal within 24 hours. Sign and deposit.</div>
           <div class="step-time">Day 1–3</div>
         </div>
       </div>
@@ -1494,23 +1462,24 @@ footer {
     <div class="verticals-header">
       <div class="section-label reveal"><div class="section-label-line"></div><div class="section-label-text">Who We Serve</div></div>
       <h2 class="section-title reveal reveal-delay-1">Deep expertise in<br>three industries.</h2>
-      <p class="section-sub reveal reveal-delay-2">We don't sell generic automation. We understand your domain — the tools, the compliance requirements, the specific workflows that eat your team's time.</p>
+      <p class="section-sub reveal reveal-delay-2">We don't sell generic automation. We understand your domain — the tools, the compliance requirements, and the specific workflows that eat your team's time.</p>
     </div>
     <div class="verticals-grid">
+
       <div class="vertical-card reveal">
-        <span class="vertical-emoji">🏥</span>
-        <div class="vertical-name">Healthcare Ops</div>
-        <div class="vertical-pain">"Our staff spends 10 hours a week manually moving patient data between systems that should talk to each other."</div>
+        <span class="vertical-emoji">🚢</span>
+        <div class="vertical-name">Supply Chain & Logistics</div>
+        <div class="vertical-pain">"Our team spends 15 hours a week chasing purchase orders, updating vendor portals, and reconciling shipment data that should flow automatically."</div>
         <div class="vertical-wins">
-          <div class="vertical-win"><div class="win-check">✓</div>Patient intake & onboarding automation</div>
-          <div class="vertical-win"><div class="win-check">✓</div>EHR ↔ billing system integration</div>
-          <div class="vertical-win"><div class="win-check">✓</div>Care coordination workflows</div>
-          <div class="vertical-win"><div class="win-check">✓</div>HIPAA-compliant data pipelines</div>
-          <div class="vertical-win"><div class="win-check">✓</div>Scheduling & follow-up automation</div>
+          <div class="vertical-win"><div class="win-check">✓</div>PO creation & vendor onboarding automation</div>
+          <div class="vertical-win"><div class="win-check">✓</div>Shipment tracking & exception alerting</div>
+          <div class="vertical-win"><div class="win-check">✓</div>ERP ↔ WMS / TMS integration (SAP, NetSuite)</div>
+          <div class="vertical-win"><div class="win-check">✓</div>Freight billing reconciliation workflows</div>
+          <div class="vertical-win"><div class="win-check">✓</div>Inventory threshold alerts & reorder triggers</div>
         </div>
         <div class="vertical-timeline">
           <div><div class="vt-label">First workflow live</div><div class="vt-value">2 weeks</div></div>
-          <div style="text-align:right"><div class="vt-label">Avg. time saved</div><div class="vt-value">8 hrs/week</div></div>
+          <div style="text-align:right"><div class="vt-label">Avg. time saved</div><div class="vt-value">12 hrs/week</div></div>
         </div>
       </div>
 
@@ -1520,9 +1489,9 @@ footer {
         <div class="vertical-pain">"Our analyst spends half their week building compliance reports manually. The data exists — it just never flows automatically."</div>
         <div class="vertical-wins">
           <div class="vertical-win"><div class="win-check">✓</div>DER asset monitoring & alerting</div>
-          <div class="vertical-win"><div class="win-check">✓</div>Automated compliance reporting</div>
-          <div class="vertical-win"><div class="win-check">✓</div>Field ops coordination workflows</div>
-          <div class="vertical-win"><div class="win-check">✓</div>Customer billing automation</div>
+          <div class="vertical-win"><div class="win-check">✓</div>Automated regulatory & compliance reporting</div>
+          <div class="vertical-win"><div class="win-check">✓</div>Field ops coordination & dispatch workflows</div>
+          <div class="vertical-win"><div class="win-check">✓</div>Customer billing & invoice automation</div>
           <div class="vertical-win"><div class="win-check">✓</div>SCADA / DERMS data pipelines</div>
         </div>
         <div class="vertical-timeline">
@@ -1532,21 +1501,22 @@ footer {
       </div>
 
       <div class="vertical-card reveal reveal-delay-2">
-        <span class="vertical-emoji">🚀</span>
-        <div class="vertical-name">B2B Startups</div>
-        <div class="vertical-pain">"We raised our Series A and suddenly someone's manually copying data between 6 tools every single day. It's embarrassing."</div>
+        <span class="vertical-emoji">💼</span>
+        <div class="vertical-name">B2B & Revenue Ops</div>
+        <div class="vertical-pain">"Our sales and ops teams copy data between CRM, ERP, and finance tools every day. We're paying people to do work that should be automatic."</div>
         <div class="vertical-wins">
           <div class="vertical-win"><div class="win-check">✓</div>Lead enrichment & CRM automation</div>
-          <div class="vertical-win"><div class="win-check">✓</div>Sales pipeline visibility dashboards</div>
-          <div class="vertical-win"><div class="win-check">✓</div>Client onboarding sequences</div>
-          <div class="vertical-win"><div class="win-check">✓</div>Invoice & payment follow-up</div>
-          <div class="vertical-win"><div class="win-check">✓</div>Weekly ops digest automation</div>
+          <div class="vertical-win"><div class="win-check">✓</div>Sales pipeline & revenue dashboards</div>
+          <div class="vertical-win"><div class="win-check">✓</div>Client onboarding & contract workflows</div>
+          <div class="vertical-win"><div class="win-check">✓</div>Invoice generation & payment follow-up</div>
+          <div class="vertical-win"><div class="win-check">✓</div>Procurement & vendor management automation</div>
         </div>
         <div class="vertical-timeline">
           <div><div class="vt-label">First workflow live</div><div class="vt-value">2 weeks</div></div>
-          <div style="text-align:right"><div class="vt-label">Avg. time saved</div><div class="vt-value">6 hrs/week</div></div>
+          <div style="text-align:right"><div class="vt-label">Avg. time saved</div><div class="vt-value">8 hrs/week</div></div>
         </div>
       </div>
+
     </div>
   </div>
 </section>
@@ -1625,66 +1595,66 @@ footer {
   </div>
 </section>
 
-<!-- ── PRICING ── -->
-<section id="pricing">
+<!-- ── ENGAGEMENT MODELS ── -->
+<section id="engagement">
   <div class="container">
-    <div class="pricing-header reveal">
-      <div class="section-label"><div class="section-label-line"></div><div class="section-label-text">Investment</div></div>
-      <h2 class="section-title">Clear pricing.<br>Fixed timelines.</h2>
-      <p class="section-sub">Every engagement is fixed-scope and fixed-price. You know what you're paying and when you get it before you sign.</p>
+    <div class="engagement-header reveal">
+      <div class="section-label"><div class="section-label-line"></div><div class="section-label-text">How We Engage</div></div>
+      <h2 class="section-title">Flexible scope.<br>Fixed timelines.</h2>
+      <p class="section-sub">Every engagement is fixed-scope with a defined deliverable. We build a custom proposal after the free audit — so you know exactly what you're getting before you commit.</p>
     </div>
-    <div class="pricing-grid">
+    <div class="engagement-grid">
       <!-- Tier 1 -->
-      <div class="pricing-card reveal">
-        <div class="pricing-tier">Starter</div>
-        <div class="pricing-price"><sup>$</sup>4,500 <span class="per">one-time</span></div>
-        <div class="pricing-timeline-tag">⚡ Live in 1–2 weeks</div>
-        <div class="pricing-desc">One focused workflow. Perfect first engagement — fast ROI, low risk, and you'll see exactly how we work before committing to more.</div>
-        <div class="pricing-includes">
-          <div class="pricing-include"><span class="pi-check">✓</span>1 core automation workflow</div>
-          <div class="pricing-include"><span class="pi-check">✓</span>Full build, testing & deployment</div>
-          <div class="pricing-include"><span class="pi-check">✓</span>Loom walkthrough + documentation</div>
-          <div class="pricing-include"><span class="pi-check">✓</span>30-day post-launch support</div>
+      <div class="engagement-card reveal">
+        <div class="engagement-tier">Starter</div>
+        <div class="engagement-scope">Single Workflow</div>
+        <div class="engagement-timeline-tag">⚡ Live in 1–2 weeks</div>
+        <div class="engagement-desc">One focused automation. The fastest path to a working proof of concept — low risk, fast ROI, and you see exactly how we work before committing to more.</div>
+        <div class="engagement-includes">
+          <div class="engagement-include"><span class="pi-check">✓</span>1 core automation workflow</div>
+          <div class="engagement-include"><span class="pi-check">✓</span>Full build, testing & deployment</div>
+          <div class="engagement-include"><span class="pi-check">✓</span>Loom walkthrough + documentation</div>
+          <div class="engagement-include"><span class="pi-check">✓</span>30-day post-launch support</div>
         </div>
-        <a href="#cta" class="pricing-cta pricing-cta-outline">Get Started →</a>
+        <a href="#cta" class="engagement-cta engagement-cta-outline">Get Custom Proposal →</a>
       </div>
 
       <!-- Tier 2 FEATURED -->
-      <div class="pricing-card featured reveal reveal-delay-1">
-        <div class="pricing-badge">Most Popular</div>
-        <div class="pricing-tier">Phase 1 Build</div>
-        <div class="pricing-price"><sup>$</sup>12,000 <span class="per">one-time</span></div>
-        <div class="pricing-timeline-tag">🗓 Live in 4 weeks</div>
-        <div class="pricing-desc">The full Phase 1 sprint. Two to three high-impact workflows deployed in a single sprint. The fastest path to meaningful, measurable ROI.</div>
-        <div class="pricing-includes">
-          <div class="pricing-include"><span class="pi-check">✓</span>2–3 automation workflows</div>
-          <div class="pricing-include"><span class="pi-check">✓</span>Full audit + roadmap included</div>
-          <div class="pricing-include"><span class="pi-check">✓</span>Dedicated Slack channel</div>
-          <div class="pricing-include"><span class="pi-check">✓</span>SOPs + staff training call</div>
-          <div class="pricing-include"><span class="pi-check">✓</span>60-day post-launch support</div>
+      <div class="engagement-card featured reveal reveal-delay-1">
+        <div class="engagement-badge">Most Popular</div>
+        <div class="engagement-tier">Phase 1 Build</div>
+        <div class="engagement-scope">2–3 Workflows</div>
+        <div class="engagement-timeline-tag">🗓 Live in 4 weeks</div>
+        <div class="engagement-desc">The full Phase 1 sprint. Two to three high-impact workflows deployed in a single sprint. The fastest path to measurable, compounding ROI across your operations.</div>
+        <div class="engagement-includes">
+          <div class="engagement-include"><span class="pi-check">✓</span>2–3 automation workflows</div>
+          <div class="engagement-include"><span class="pi-check">✓</span>Full audit + automation roadmap</div>
+          <div class="engagement-include"><span class="pi-check">✓</span>Dedicated Slack channel</div>
+          <div class="engagement-include"><span class="pi-check">✓</span>SOPs + staff training call</div>
+          <div class="engagement-include"><span class="pi-check">✓</span>60-day post-launch support</div>
         </div>
-        <a href="#cta" class="pricing-cta pricing-cta-solid">Book Free Audit →</a>
+        <a href="#cta" class="engagement-cta engagement-cta-solid">Book Free Audit →</a>
       </div>
 
       <!-- Tier 3 -->
-      <div class="pricing-card reveal reveal-delay-2">
-        <div class="pricing-tier">Full Infrastructure</div>
-        <div class="pricing-price"><sup>$</sup>25k+ <span class="per">one-time</span></div>
-        <div class="pricing-timeline-tag">🗓 Live in 6–10 weeks</div>
-        <div class="pricing-desc">Full CRM build-out plus all Phase 1 & Phase 2 workflows. Designed for companies ready to build a real automation infrastructure layer.</div>
-        <div class="pricing-includes">
-          <div class="pricing-include"><span class="pi-check">✓</span>Full CRM architecture & build</div>
-          <div class="pricing-include"><span class="pi-check">✓</span>5–8 automation workflows</div>
-          <div class="pricing-include"><span class="pi-check">✓</span>10–15 tool integrations</div>
-          <div class="pricing-include"><span class="pi-check">✓</span>Full SOP documentation library</div>
-          <div class="pricing-include"><span class="pi-check">✓</span>90-day post-launch support</div>
+      <div class="engagement-card reveal reveal-delay-2">
+        <div class="engagement-tier">Full Infrastructure</div>
+        <div class="engagement-scope">5–8 Workflows + CRM</div>
+        <div class="engagement-timeline-tag">🗓 Live in 6–10 weeks</div>
+        <div class="engagement-desc">Full CRM build-out plus all Phase 1 & Phase 2 workflows. For companies ready to build a real automation infrastructure layer across their entire operations.</div>
+        <div class="engagement-includes">
+          <div class="engagement-include"><span class="pi-check">✓</span>Full CRM architecture & build</div>
+          <div class="engagement-include"><span class="pi-check">✓</span>5–8 automation workflows</div>
+          <div class="engagement-include"><span class="pi-check">✓</span>10–15 tool integrations</div>
+          <div class="engagement-include"><span class="pi-check">✓</span>Full SOP documentation library</div>
+          <div class="engagement-include"><span class="pi-check">✓</span>90-day post-launch support</div>
         </div>
-        <a href="#cta" class="pricing-cta pricing-cta-outline">Get Started →</a>
+        <a href="#cta" class="engagement-cta engagement-cta-outline">Get Custom Proposal →</a>
       </div>
     </div>
 
     <div style="text-align:center;margin-top:32px;" class="reveal">
-      <div style="font-family:'DM Mono',monospace;font-size:12px;color:var(--muted);">All plans include a free 45-minute Automation Audit before you commit to anything.</div>
+      <div style="font-family:'DM Mono',monospace;font-size:12px;color:var(--muted);">All engagements include a free 45-minute Automation Audit before you commit to anything.</div>
     </div>
   </div>
 </section>
@@ -1711,10 +1681,10 @@ footer {
       <ul class="footer-links">
         <li><a href="#services">Services</a></li>
         <li><a href="#process">Process</a></li>
-        <li><a href="#pricing">Pricing</a></li>
+        <li><a href="#verticals">Verticals</a></li>
         <li><a href="https://calendly.com/robogollc/30min" target="_blank" rel="noopener noreferrer">Book a Call</a></li>
       </ul>
-      <div class="footer-note">Built with N8N · Zapier · Make</div>
+      <div class="footer-note">Built with N8N · Make · Zapier</div>
     </div>
   </div>
 </footer>
@@ -1738,7 +1708,7 @@ function animateRing() {
 }
 animateRing();
 
-document.querySelectorAll('a, button, .service-card, .vertical-card, .pricing-card, .process-step, .tl-item').forEach(el => {
+document.querySelectorAll('a, button, .service-card, .vertical-card, .engagement-card, .process-step, .tl-item').forEach(el => {
   el.addEventListener('mouseenter', () => ring.classList.add('hover'));
   el.addEventListener('mouseleave', () => ring.classList.remove('hover'));
 });
